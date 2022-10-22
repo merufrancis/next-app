@@ -1,0 +1,28 @@
+.container h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 80px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cont li {
+    list-style-type: none;
+    padding-top: 20px;
+    color: rgb(152, 226, 15);
+}
+.cont p {
+    padding-top: 30px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
