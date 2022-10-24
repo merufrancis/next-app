@@ -16,6 +16,9 @@ export default function Home() {
       <li>NextJS</li>
       <li>ExpressJS</li>
       <li>MongoDB</li>
+      <a href="favicon.ico" download="">
+      <button>Download Resume</button>
+      </a>
     </div>
     </>
   )

@@ -19,6 +19,12 @@
 .cont p {
     padding-top: 30px;
 }
+.cont button {
+    background: red;
+    color: white;
+    padding: 10px;
+    margin: 40px;
+}
 .footer {
     display: flex;
     flex-direction: row;
@@ -26,3 +32,22 @@
     align-items: center;
     color: white;
 }
+
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.25rem;
+  }
