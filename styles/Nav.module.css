@@ -1,5 +1,5 @@
 .nav{
-    height: 50px;
+    height: 70px;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,7 @@
     justify-content: space-evenly;
 }
 .nav h3 {
-    color: white;
+    font-size: 30px;
 }
 .ul {
     display: flex;
@@ -21,8 +21,20 @@
     color: white;
     padding: 10px;
     padding-right: 30px;
+    font-size: large;
+    cursor: pointer;
 }
 
 .li:hover {
     color: blue;
+}
+.btn {
+    background: red;
+    color: white;
+    padding: 10px;
+    margin: 40px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: blue;
 }

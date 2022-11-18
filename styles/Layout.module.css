@@ -10,6 +10,8 @@
     justify-content: center;
     align-items: center;
     color: white;
+    width: 1350px;
+    background-color: blue;
 }
 .cont li {
     list-style-type: none;
@@ -31,6 +33,15 @@
     justify-content: space-around;
     align-items: center;
     color: white;
+    background-color: rgb(21, 17, 247);
+    width: 1350px;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+.footer p {
+    margin: 70px;
+
 }
 
 .container {
@@ -50,4 +61,14 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 1.25rem;
+  }
+  .img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-image: url(../public/laptop.jpg);
+    background-size: cover;
+    align-self: flex-start;
+    margin-right: 90%;
+    float: left;
   }
