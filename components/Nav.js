@@ -1,32 +1,24 @@
 import Link from 'next/link'
-import navStyles from '../styles/Nav.module.css'
-import { FaBeer } from 'react-icons/fa'
+import { BsFillMoonStarsFill } from 'react-icons/bs'
 
 const Nav = () => {
   return (
-    <div className={navStyles.nav}>
-        <h3 style={{color: 'red'}}>Tech<span style={{color:'blue'}}>Wiz</span></h3>
-        <ul className={navStyles.ul}>
-            <li className={navStyles.li}>
-                <Link href="/">Home</Link>
-            </li>
-            <li className={navStyles.li}>
-                <Link href="/about">About</Link>
-            </li>
-            <li className={navStyles.li}>
+    <nav className="text-lg flex flex-row justify-around text-b">
+                <a href="/">
+                <h3 className="m-4 text-4xl text-b font-bold" style={{color: 'red'}}>Tech<span style={{color:'blue'}} >Wiz</span></h3>
+                  </a>
+        <ul className="flex gap-10 m-6">
+            <li>
                 <Link href="/blog">Blog</Link>
             </li>
-            <li className={navStyles.li}>
+            <li>
                 <Link href="/projects">Projects</Link>
             </li>
-        </ul>
-        <a href="favicon.ico" download="">
-      <button className={navStyles.btn} >Download Resume</button>
-      </a>
-      <li>
-      <FaBeer />
+            <li>
+      <BsFillMoonStarsFill style={{color: 'black'}}/>
       </li>
-    </div>
+        </ul>
+    </nav>
   )
 }
 
