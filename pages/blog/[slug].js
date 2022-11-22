@@ -3,6 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 import marked from 'marked'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function PostPage({
   frontmatter: { title, date, cover_image },
@@ -17,7 +18,7 @@ export default function PostPage({
       <div className='card card-page'>
         <h1 className=' font-bold text-center text-3xl post-title'>{title}</h1>
         <div className='post-date'>Posted on {date}</div>
-        <img src={cover_image} alt='' />
+        <Image src={cover_image} alt='' width="700px" height="450px"/>
         <div className='post-body'>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>

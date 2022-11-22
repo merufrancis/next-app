@@ -14,7 +14,7 @@ export default function Home() {
     <section className="list-none flex flex-col justify-center h-70 text-center p-10">
     <h3 className="justify-center text-5xl text-teal-600 font-bold">Francis Meru</h3>
     <h4 className="text-2xl py-2">Full stack developer</h4>
-    <p className="leading-8 text-gray-900">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    <p className="leading-8 text-gray-900">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</p>
     <div className="flex flex-row gap-8 justify-center text-5xl py-5">
     <AiFillTwitterCircle />
     <AiFillLinkedin />

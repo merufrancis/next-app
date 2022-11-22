@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Post({ post }) {
   return (
     <div className='card'>
-      <img src={post.frontmatter.cover_image} alt='' />
+      <Image src={post.frontmatter.cover_image} alt='' width="330px" height="220px" />
 
       <div className='post-date'>Posted on {post.frontmatter.date}</div>
 
