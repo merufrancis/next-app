@@ -1,10 +1,8 @@
 
 const Footer = () => {
   return (
-    <div className="flex flex-row gap-4 text-blue px-10">
-        <h1>Copyright &copy; Francis Meru</h1>
-        <p>merufrancis21@gmail.com</p>
-        <p><a href="tel: +254719781743">+254719781743</a></p>
+    <div className="flex  justify-center text-center gap-4 text-blue px-10">
+        <h1 className="text-center text-3xl">Copyright &copy; Francis Meru</h1>
     </div>
   )
 }

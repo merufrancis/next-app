@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 
 export default function Home() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -27,10 +26,6 @@ export default function Home() {
       <button className=" bg-gradient-to-r from-cyan-500 to-red-600 px-2 py-2 rounded-md">Download Resume</button>
       </a>
       </div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
 
     </main>
     </>

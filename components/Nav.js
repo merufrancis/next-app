@@ -9,10 +9,13 @@ const Nav = () => {
                   </a>
         <ul className="flex gap-10 m-6">
             <li>
-                <Link href="/blog">Blog</Link>
+                <Link href="/post">Blog</Link>
             </li>
             <li>
                 <Link href="/projects">Projects</Link>
+            </li>
+            <li>
+                <Link href="/pos">Posts</Link>
             </li>
             <li>
       <BsFillMoonStarsFill style={{color: 'black'}}/>
