@@ -1,9 +1,23 @@
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="flex  justify-center text-center gap-4 text-blue px-10">
-        <h1 className="text-center text-3xl">Copyright &copy; Francis Meru</h1>
-    </div>
+    <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 cursor-pointer dark:text-gray-400">
+      <Link href="https://twitter.com/frank_react" >
+      <AiFillTwitterCircle/>
+      </Link>
+      <Link href="https://www.linkedin.com/in/francis-meru-78a056226/" >
+      <AiFillLinkedin />
+      </Link>
+      <Link href="https://youtu.be/RUoUxdhdQ-Y" >
+      <AiFillYoutube />
+      </Link>
+  </div>
   )
 }
 

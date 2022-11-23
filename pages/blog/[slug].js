@@ -11,7 +11,7 @@ export default function PostPage({
   content,
 }) {
   return (
-    <>
+    <div className='container'>
       <Link href='/post'>
         <a className='btn btn-back'>Go Back</a>
       </Link>
@@ -23,7 +23,7 @@ export default function PostPage({
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -1,27 +1,30 @@
+import React from 'react'
 import Link from 'next/link'
-import { BsFillMoonStarsFill } from 'react-icons/bs'
+import { BsFillMoonStarsFill } from "react-icons/bs";
 
 const Nav = () => {
   return (
-    <nav className="text-lg flex flex-row justify-around text-b">
-                <Link href="/">
-                <h3 className="m-4 text-4xl text-b font-bold" style={{color: 'red'}}>Tech<span style={{color:'blue'}} >Wiz</span></h3>
-                  </Link>
-        <ul className="flex gap-10 m-6">
-            <li>
+    <div className='flex flex-row justify-around bg-white px-10 lg:px-52'>
+    <nav className="py-10 mb-12 flex justify-between dark:text-white">
+            <h1 className="font-burtons text-3xl font-bold">
+                <Link href="/">Techwiz</Link>
+                </h1>
+            <ul className="flex items-center">
+            <li className="px-8 dark:text-white">
                 <Link href="/post">Blog</Link>
             </li>
-            <li>
+            <li className="px-8 dark:text-white">
                 <Link href="/projects">Projects</Link>
             </li>
-            <li>
-                <Link href="/pos">Posts</Link>
-            </li>
-            <li>
-      <BsFillMoonStarsFill style={{color: 'black'}}/>
-      </li>
-        </ul>
-    </nav>
+              <li>
+                <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className=" cursor-pointer text-2xl"
+                />
+              </li>
+            </ul>
+          </nav>
+    </div>
   )
 }
 

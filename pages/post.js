@@ -12,7 +12,7 @@ export default function Home({ posts }) {
         <title>Dev Blog</title>
       </Head>
 
-      <div className='posts'>
+      <div className='posts container'>
         {posts.map((post, index) => (
           <Post key={index} post={post} />
         ))}
